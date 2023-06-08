@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+		
+		<!--<style>
+			form{
+				text-align:center;
+			}
+		</style> -->
+	</head>
+	
+	<body>
+	
+		
+		<form>
+			<h1>REGISTRATION</h1>
+			
+			<label for="fname">First Name:</label>
+			<input type="text" id="fname">
+			<label for="lname">Last Name:</label>
+			<input type="text" id="lname"><br><br>
+			
+			<label for="gender">Gender:</label>
+			<input type="radio" id="male"  name="gender">
+			<label for="male"">Male</label>
+			<input type="radio" id="female" name="gender">
+			<label for="female">Female</label>
+			<input type="radio" id="other" name="gender">
+			<label for="other">Other</label><br><br>
+			
+			<label for="DOB">Date Of Birth:</label>
+			<input type="date" id="DOB"><br><br>
+			
+			<label for="mobile_num">Mobile Number:</label>
+			<input type="tel" id="mobile_num" placeholder="91-98765-43210"><br><br>
+			
+			<label for="e-mail">Email:</label>
+			<input type="email" id="e-mail"><br><br>
+			
+			<label for="address">Address:</label><br><br>
+			<textarea id="address"></textarea><br><br>
+			
+			<label for="aadhaar">Aadhaar:</label>
+			<input type="text" id="aadhaar" placeholder="8765-4321-8765-4321"><br><br>
+			
+			<label for="course">Course:</label>
+			<input list="course" id="course" placeholder="select">
+			<datalist id="course">
+				<option value="html">
+				<option value="css">
+				<option value="js">
+			</datalist>	<br><br>
+			
+			<label for="qualification">Qualification:</label>
+			<select id="qualification">
+				<option>UG</option>
+				<option>PG</option>
+			</select>
+			
+			<label for="dept">Degree & Dept:</label>
+			<input type="text" id="dept" placeholder="BE CSE"><br><br>
+			
+			<label for="resume">Upload Resume:</label>
+			<input type="file" id="resume"><br><br>
+			
+			<input type="checkbox">
+			<label">I accept all the terms & conditions.</label><br><br>
+			
+			<input type="checkbox">
+			<label>I hereby declare that all statements made in this application are true.</label><br><br>
+			
+			<input type="submit">
+			
+			<input type="reset">
+			
+		</form>
+	
+	</body>
+
+</html>
